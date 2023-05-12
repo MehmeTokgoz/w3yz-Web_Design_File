@@ -1,0 +1,36 @@
+.carousel-container {
+  position: absolute;
+  width: 1920px;
+  height: 633px;
+  /* left: 0px;
+  top: 1498px; */
+
+  /* background: #250400; */
+}
+
+.carousel-first-image {
+  background: transparent;
+  /* background: #250400; */
+}
+
+.firstSlide-header {
+  /* position: absolute; */
+  display: block;
+  width: 612px;
+  height: 164px;
+  margin-bottom: 120px;
+  /* left: 654px;
+  top: 1618px; */
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 60px;
+  line-height: 82px;
+  text-align: center;
+  text-transform: capitalize;
+
+  color: #ffffff;
+}
+.carousel-buttons{
+  display: block;
+}

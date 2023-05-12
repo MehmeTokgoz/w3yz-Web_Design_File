@@ -1,0 +1,76 @@
+.grid-container {
+  background: linear-gradient(295.39deg, #d2d2d2 0%, #efefef 94.8%);
+  border-radius: 40px;
+  margin-top: 5rem;
+}
+
+.introduction-main-container {
+  width: 100%;
+}
+
+.introduction-text-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: left;
+  align-items: left;
+  padding: 1%;
+}
+
+.introduction-text-container h1 {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 60px;
+  line-height: 82px;
+  text-transform: capitalize;
+  color: #000000;
+}
+
+.introduction-text-container h3 {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 30px;
+  line-height: 41px;
+  text-transform: capitalize;
+  color: #000000;
+}
+
+.introduction-text-container p {
+  margin-top: 1rem;
+  font-family: "Avenir";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 150%;
+  color: #808080;
+}
+
+.card-headers-text {
+  text-align: left;
+  box-sizing: border-box;
+  padding: 0 10%;
+  font-family: "Avenir";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+}
+
+.card-paragraph {
+  padding-top: 70%;
+}
+
+.thumbnail {
+  position: relative;
+}
+
+.caption {
+  position: absolute;
+  top: 10%;
+  left: 0;
+  width: 100%;
+}
