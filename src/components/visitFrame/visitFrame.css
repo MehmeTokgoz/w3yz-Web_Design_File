@@ -1,0 +1,32 @@
+.select-visit-type-header {
+  width: 511px;
+  height: 82px;
+  left: 140px;
+  top: 3838px;
+
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 60px;
+  line-height: 82px;
+  text-transform: capitalize;
+  color: #000000;
+}
+
+.select-visit-type-text {
+  width: 705px;
+  height: 41px;
+  left: 140px;
+  top: 3926px;
+
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 30px;
+  line-height: 41px;
+  /* identical to box height */
+
+  text-transform: capitalize;
+
+  color: #000000;
+}
