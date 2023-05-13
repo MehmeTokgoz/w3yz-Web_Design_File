@@ -9,6 +9,7 @@
 .main-footer-container {
 background: #250400;
 margin: auto;
+padding: 4%;
 height: 300px;
 }
 ul {
@@ -18,12 +19,33 @@ ul {
 }
 
 ul>li {
-    padding: 4px;
+    margin: 5px auto;
+    padding: 2px;
     color:#C5CAE9;
+    /* width: 200px; */
+    /* position: absolute; */
+width: 200px;
+height: 22px;
+left: 0px;
+top: 72.94px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 22px;
+/* identical to box height, or 157% */
+
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+
+
 }
 
 ul>li:hover {
-    color: #957bda;
+    /* color: #957bda; */
     cursor: pointer
 }
 
@@ -67,6 +89,14 @@ hr {
     color: #FFFFFF;
 }
 
+.follow-us {
+    
+}
+.pseudo {
+
+}
+
+
 .divider {
     border-top: 2px solid
 }
@@ -76,17 +106,25 @@ width: 179px;
 height: 22px;
 left: 0px;
 top: 38.97px;
-
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
 font-size: 14px;
 line-height: 22px;
-/* identical to box height, or 157% */
-
 display: flex;
 align-items: center;
 
 color: #FFFFFF;
 
+}
+
+.icon-container {
+    padding: 12px;
+    width: 48px;
+    height: 48px;
+    left: 216px;
+    top: 0px;
+    background: rgba(255, 255, 255, 0.002);
+    box-shadow: inset 0px 0px 0px 2px #333333;
+    border-radius: 24px;
 }

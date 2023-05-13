@@ -1,12 +1,19 @@
 // import React from 'react'
 import "./pageFooter.css";
 // import Facebook from "../../images/facebook.svg"
+import Facebook from "../../images/f.svg";
+import Instagram from "../../images/Instagram.svg";
+import Twitter from "../../images/twitter.svg";
+import Youtube from "../../images/youtube.svg";
+import Pinterest from "../../images/pinterest.svg";
+import LinkedIn from "../../images/linkedin.svg";
+import Pseudo from "../../images/pseudo.svg";
 
 function PageFooter() {
   return (
     <div className="main-footer-container">
       <div className="row mb-4">
-        <div className="col">
+        <div className="col-7">
           <div className="footer-headings-left d-flex justify-content-between">
             <div className="col-md-2 col-sm-2 col-xs-2">
               <h5 className="heading">HAKKIMIZDA</h5>
@@ -16,6 +23,7 @@ function PageFooter() {
                 <li>Bizi desteklemek isteyenler için</li>
               </ul>
             </div>
+            <div className="col-md-1 col-sm-1 col-xs-1"></div>
             <div className="col-md-2 col-sm-2 col-xs-2">
               <h5 className="heading">WEBSİTEMİZ</h5>
               <ul>
@@ -36,16 +44,33 @@ function PageFooter() {
           </div>
         </div>
         <div className="vr mx-0 p-0"></div>
-        <div className="col">
-          <div className="footer-right social mt-2 mb-3 d-flex flex-column justify-content-center align-items-center">
-            <h5 className="heading">BİZİ TAKİP ET </h5>
-            <hr/>
+        <div className="col-4">
+          <div className="footer-right social mt-2 mb-3 d-flex flex-column justify-content-start">
             <div>
-              <i className="fa fa-facebook-official fa-lg mx-3" style={{color: "#ffffff"}}></i>{" "}
-              <i className="fa fa-instagram fa-lg mx-3" style={{color: "#ffffff"}}></i>{" "}
-              <i className="fa fa-twitter fa-lg mx-3" style={{color: "#ffffff"}}></i>{" "}
-              <i className="fa-brands fa-youtube fa-lg mx-3" style={{color: "#ffffff"}}></i>
-              <i className="fa fa-linkedin-square fa-lg mx-3" style={{color: "#ffffff"}}></i>{" "}
+              <div className="d-flex flex-row justify-content-start">
+                <h5 className="heading follow-us">BİZİ TAKİP ET </h5>
+                <img className="pseudo" src={Pseudo} alt="" />
+              </div>
+            </div>
+            <div className="d-flex flex-row justify-content-between">
+              <div className="icon-container d-flex flex-row justify-content-center align-items-center">
+                <img src={Facebook} alt="" />
+              </div>
+              <div className="icon-container d-flex flex-row justify-content-center align-items-center">
+                <img src={Instagram} alt="" />
+              </div>
+              <div className="icon-container d-flex flex-row justify-content-center align-items-center">
+                <img src={Twitter} alt="" />
+              </div>
+              <div className="icon-container d-flex flex-row justify-content-center align-items-center">
+                <img src={Youtube} alt="" />
+              </div>
+              <div className="icon-container d-flex flex-row justify-content-center align-items-center">
+                <img src={Pinterest} alt="" />
+              </div>
+              <div className="icon-container d-flex flex-row justify-content-center align-items-center">
+                <img src={LinkedIn} alt="" />
+              </div>
             </div>
           </div>
         </div>
