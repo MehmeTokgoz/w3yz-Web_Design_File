@@ -1,7 +1,7 @@
-.container {
+/* .container {
   max-width: 1920px;
   margin: 0 auto;
-}
+} */
 
 .logo-anchor {
   box-sizing: border-box;
@@ -27,15 +27,12 @@
 .nav-link-texts {
   /* width: 88px;
   height: 24px; */
-
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 11px;
   line-height: 24px;
-  /* identical to box height, or 218% */
-
-  /* display: flex; */
+  display: flex; 
   align-items: center;
   letter-spacing: 2.2px;
   text-transform: uppercase;
