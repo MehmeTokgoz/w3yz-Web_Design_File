@@ -8,11 +8,10 @@ import Carousel from "./components/carousel/Carousel";
 import PodcastGrid from "./components/podcastGrid/PodcastGrid";
 import VisitFrame from "./components/visitFrame/VisitFrame";
 import PageFooter from "./components/pageFooter/PageFooter";
-
 function App() {
   return (
     <>
-      <div>
+      <div className="container-fluid page-container">
         <Header />
         <Landing />
         <WelcomeFrame />
