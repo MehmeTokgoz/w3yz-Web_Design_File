@@ -45,12 +45,13 @@ function PageFooter() {
         </div>
         <div className="vr mx-0 p-0"></div>
         <div className="col-4">
-          <div className="footer-right social mt-2 mb-3 d-flex flex-column justify-content-start">
-            <div>
-              <div className="d-flex flex-row justify-content-start">
-                <h5 className="heading follow-us">BİZİ TAKİP ET </h5>
-                <img className="pseudo" src={Pseudo} alt="" />
+          <div className="footer-right social mt-0 ms-3 mb-3 d-flex flex-column justify-content-start">
+            <div className="d-flex">
+              <div className="d-flex justify-content-between">
+                <h5 className="heading">BİZİ TAKİP ET </h5>
+                <img src={Pseudo} alt="" />
               </div>
+
             </div>
             <div className="d-flex flex-row justify-content-between">
               <div className="icon-container d-flex flex-row justify-content-center align-items-center">
@@ -75,7 +76,7 @@ function PageFooter() {
           </div>
         </div>
       </div>
-      <div className="divider"> </div>
+      <div className="divider divid"> </div>
       <div className="row justify-content-center align-items-center">
         <div className="footer-legal-privacy-cookie col-2">Legal Notice</div>
         <div className="footer-legal-privacy-cookie col-2">Privacy policy</div>

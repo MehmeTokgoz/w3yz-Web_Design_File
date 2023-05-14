@@ -76,25 +76,19 @@ hr {
     height: 22px;
     left: 0px;
     top: -1px;
-    
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 22px;    
     display: flex;
-    align-items: center;
+    align-items: center;;
     letter-spacing: 1.3px;
     text-transform: uppercase;  
     color: #FFFFFF;
 }
 
-.follow-us {
-    
-}
-.pseudo {
 
-}
 
 
 .divider {
