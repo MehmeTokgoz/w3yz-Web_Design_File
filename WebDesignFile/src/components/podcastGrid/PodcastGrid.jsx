@@ -15,9 +15,9 @@ import Grid12 from "../../images/grid-12.svg";
 
 function PodcastGrid() {
   return (
-    <div className="grid-container">
+    <div className="container">
       <div className="row">
-        <div className="podcast-grid-container d-flex justify-content-center align-items-center p-5">
+        <div className="col-md-6 d-flex justify-content-center align-items-center p-5">
           <div className="introduction-main-container">
             <div className="introduction-text-container">
               <h1>Podcast</h1>
@@ -34,142 +34,128 @@ function PodcastGrid() {
               <p className="mt-5">SPOTIFAY</p>
             </div>
           </div>
+        </div>
 
-          <div>
-            <div className="row">
-              <div className="col-lg-3 col-md-12 mb-4 mb-lg-0">
-                <img
-                  src={Grid1}
-                  className="w-100 shadow-1-strong rounded mb-2"
-                  alt="#"
-                />
-
-                <img
-                  src={Grid4}
-                  className="w-100 shadow-1-strong rounded mb-2 mt-3"
-                  alt="#"
-                />
-              </div>
-              <div className="col-lg-3 mb-4 mb-lg-0">
-                <img
-                  src={Grid2}
-                  className="w-100 shadow-1-strong rounded mb-2"
-                  alt="#"
-                />
-
-                <img
-                  src={Grid7}
-                  className="w-100 shadow-1-strong rounded mt-1"
-                  alt="#"
-                />
-              </div>
-              <div className="col-lg-6 mb-4 mb-lg-0">
-                <img
-                  src={Grid3}
-                  className="w-100 shadow-1-strong rounded mb-2"
-                  alt="#"
-                />
-                <div className="row">
-                  <div className="col-lg-6">
-                    <img
-                      src={Grid5}
-                      className="w-100 shadow-1-strong rounded mb-2"
-                      alt="#"
-                    />
-                  </div>
-                  <div className="col-lg-6">
-                    <img
-                      src={Grid6}
-                      className="w-100 shadow-1-strong rounded mb-2"
-                      alt="#"
-                    />
-                  </div>
+        <div className="col-md-6">
+          <div className="row">
+            <div className="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <img
+                src={Grid1}
+                className="w-100 shadow-1-strong rounded mb-2"
+                alt="#"
+              />
+              <img
+                src={Grid4}
+                className="w-100 shadow-1-strong rounded mb-2 mt-md-3"
+                alt="#"
+              />
+            </div>
+            <div className="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <img
+                src={Grid2}
+                className="w-100 shadow-1-strong rounded mb-2"
+                alt="#"
+              />
+              <img
+                src={Grid7}
+                className="w-100 shadow-1-strong rounded mt-md-3"
+                alt="#"
+              />
+            </div>
+            <div className="col-lg-6 col-md-12">
+              <img
+                src={Grid3}
+                className="w-100 shadow-1-strong rounded mb-2"
+                alt="#"
+              />
+              <div className="row">
+                <div className="col-lg-6 col-md-6">
+                  <img
+                    src={Grid5}
+                    className="w-100 shadow-1-strong rounded mb-2"
+                    alt="#"
+                  />
                 </div>
-
-                <img
-                  src={Grid8}
-                  className="w-100 shadow-1-strong rounded mb-2"
-                  alt="#"
-                />
+                <div className="col-lg-6 col-md-6">
+                  <img
+                    src={Grid6}
+                    className="w-100 shadow-1-strong rounded mb-2"
+                    alt="#"
+                  />
+                </div>
               </div>
+              <img
+                src={Grid8}
+                className="w-100 shadow-1-strong rounded mb-2"
+                alt="#"
+              />
             </div>
           </div>
         </div>
-        <div className="row mx-auto px-4">
-          <div className="col-12">
-            <div className="row">
-              <div className="col-3">
-                <div className="row">
-                  <div className="card-image-header-container thumbnail text-left">
-                    <img
-                      src={Grid9}
-                      className="w-100 shadow-1-strong rounded mb-2 img-fluid"
-                      alt="#"
-                    />
-                    <div className="card-headers-text caption ">
-                      <p className="card-header">EUROPEAN</p>
-                      <p className="card-paragraph">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Beatae possimus corrupti eveniet ratione.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-3">
-                <div className="row">
-                  <div className="card-image-header-container thumbnail text-left">
-                    <img
-                      src={Grid10}
-                      className="w-100 shadow-1-strong rounded mb-2 img-fluid"
-                      alt="#"
-                    />
-                    <div className="card-headers-text caption ">
-                      <p className="card-header">EUROPEAN</p>
-                      <p className="card-paragraph">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Beatae possimus corrupti eveniet ratione.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-3">
-                <div className="row">
-                  <div className="card-image-header-container thumbnail text-left">
-                    <img
-                      src={Grid11}
-                      className="w-100 shadow-1-strong rounded mb-2 img-fluid"
-                      alt="#"
-                    />
-                    <div className="card-headers-text caption ">
-                      <p className="card-header">EUROPEAN</p>
-                      <p className="card-paragraph">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Beatae possimus corrupti eveniet ratione.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-3">
-                <div className="row">
-                  <div className="card-image-header-container thumbnail text-left">
-                    <img
-                      src={Grid12}
-                      className="w-100 shadow-1-strong rounded mb-2 img-fluid"
-                      alt="#"
-                    />
-                    <div className="card-headers-text caption ">
-                      <p className="card-header">EUROPEAN</p>
-                      <p className="card-paragraph">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Beatae possimus corrupti eveniet ratione.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
+      </div>
+
+      <div className="row mx-auto px-md-4">
+        <div className="col-md-3">
+          <div className="card-image-header-container thumbnail text-left">
+            <img
+              src={Grid9}
+              className="w-100 shadow-1-strong rounded mb-2 img-fluid"
+              alt="#"
+            />
+            <div className="card-headers-text caption ">
+              <p className="card-header">EUROPEAN</p>
+              <p className="card-paragraph">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
+                possimus corrupti eveniet ratione.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="col-md-3">
+          <div className="card-image-header-container thumbnail text-left">
+            <img
+              src={Grid10}
+              className="w-100 shadow-1-strong rounded mb-2 img-fluid"
+              alt="#"
+            />
+            <div className="card-headers-text caption ">
+              <p className="card-header">EUROPEAN</p>
+              <p className="card-paragraph">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
+                possimus corrupti eveniet ratione.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="col-md-3">
+          <div className="card-image-header-container thumbnail text-left">
+            <img
+              src={Grid11}
+              className="w-100 shadow-1-strong rounded mb-2 img-fluid"
+              alt="#"
+            />
+            <div className="card-headers-text caption ">
+              <p className="card-header">EUROPEAN</p>
+              <p className="card-paragraph">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
+                possimus corrupti eveniet ratione.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="col-md-3">
+          <div className="card-image-header-container thumbnail text-left">
+            <img
+              src={Grid12}
+              className="w-100 shadow-1-strong rounded mb-2 img-fluid"
+              alt="#"
+            />
+            <div className="card-headers-text caption ">
+              <p className="card-header">EUROPEAN</p>
+              <p className="card-paragraph">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
+                possimus corrupti eveniet ratione.
+              </p>
             </div>
           </div>
         </div>
@@ -177,5 +163,4 @@ function PodcastGrid() {
     </div>
   );
 }
-
 export default PodcastGrid;

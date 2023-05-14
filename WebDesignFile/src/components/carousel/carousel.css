@@ -55,78 +55,42 @@
   background: #ffffff;
 }
 
-
-#indicator-buttons-active {
-  border-radius: 4px;
-  width: 8px;
-  height: 8px;
-  background: #ffffff;
-}
-
-#indicator-buttons-active::before {
-  content: "";
-}
-
-#indicator-buttons {
-
+.indicator-buttons-active {
   width: 6px;
   height: 6px;
   left: 37px;
   top: calc(50% - 6px/2);
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 1);
   margin: 0px 1px;
   border-radius: 3px;
 }
 
-#indicator-buttons::before {
+.indicator-buttons {
+width: 6px;
+height: 6px;
+left: 27px;
+top: calc(50% - 6px/2);
+
+background: rgba(255, 255, 255, 0.5);
+border-radius: 3px;
+}
+
+#indicator-button-0::before {
+  content: "";
+}
+#indicator-button-1::before {
+  content: "";
+}
+#indicator-button-2::before {
+  content: "";
+}
+#indicator-button-3::before {
+  content: "";
+}
+#indicator-button-4::before {
+  content: "";
+}
+#indicator-button-5::before {
   content: "";
 }
 
-
-
-/*
-.carousel-container {
-  width: 100%;
-}
-
-.carousel-image-text-container {
-  position: relative;
-  text-align: center;
-  color:rgb(18, 104, 15);
-}
-
-.caption-container {
-  position: absolute;
-  top:30%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.carousel-first-image {
-  background: transparent;
-  background: #250400; 
-}
-
-
-.firstSlide-header {
-  display: block;
-  width: 612px;
-  height: 164px;
-  margin-bottom: 120px;
-  left: 654px;
-  top: 1618px; 
-  font-family: "Manrope";
-  font-style: normal;
-  font-weight: 200;
-  font-size: 60px;
-  line-height: 82px;
-  text-align: center;
-  text-transform: capitalize;
-
-  color: #ffffff;
-}
-.carousel-buttons{
-  display: block;
-}
-
-*/
