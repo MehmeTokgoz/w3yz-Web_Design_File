@@ -1,4 +1,3 @@
-// import React from 'react'
 import "./carousel.css";
 import CarouselMain from "../../images/carousel-1.svg";
 import CarouselImage2 from "../../images/grid-3.svg";

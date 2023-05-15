@@ -1,4 +1,3 @@
-// import React from 'react'
 import "./podcastGrid.css";
 import Grid1 from "../../images/grid-1.svg";
 import Grid2 from "../../images/grid-2.svg";
