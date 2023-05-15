@@ -144,7 +144,7 @@ function PodcastGrid() {
           </div>
         </div>
         <div className="col-md-3">
-          <div className="card-image-header-container thumbnail text-left">
+          <div className=" thumbnail text-left">
             <img
               src={Grid12}
               className="w-100 shadow-1-strong rounded mb-2 img-fluid"
